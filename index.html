@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="referrer" content="origin">
 
     <title>Eco Running</title>
 
@@ -33,7 +34,15 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-100892048-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
 <body id="page-top">
@@ -100,7 +109,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="section-heading">
-                        <h2>Nova applicação para corrida que promove a saúde</h2>
+                        <h2>Nova aplicação para corrida que promove a saúde</h2>
                         <p class="text-muted">Descobre quais as funcionalidades!</p>
                         <hr>
                     </div>
@@ -113,7 +122,7 @@
                             <div class="device">
                                 <div class="screen">
                                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                    <img src="img/demo2.png" class="img-responsive" alt=""> </div>
+                                    <img src="img/new_demo.png" class="img-responsive" alt=""> </div>
                                 <div class="button">
                                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                                 </div>
@@ -173,12 +182,23 @@
                 <div class="col-md-8 col-md-offset-2">
                     <h2 class="section-heading">Fica atento a todas as novidades!</h2>
                     <p>Subscreve à nossa mailling list:</p>
-                    <form action="" method="post">
+                    <form action="https://formspree.io/CIAS@outlook.pt" method="POST">
+                        <div class="col-md-2"></div>
+				        <div class="col-md-8">
+				            <div class="input-group">
+				                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i></span>
+								<input type="text" class="form-control input-lg" name="email" id="email"  placeholder="Insere o teu email"/>
+				            </div>
+				        </div>
+				        <div class="col-md-2"></div>
+                        <br/><br/><br/>
+                        <button class="btn btn-warning btn-lg">Subscreve Já!</button>
+                        <!--
                         <div class="input-prepend"><span class="add-on"><i class="icon-envelope"></i></span>
-                            <input type="text" id="" name="" placeholder="insere o teu email" style="width: 50%">
+                            <input type="text" id="" name="name" placeholder="insere o teu email" style="width: 50%">
                         </div>
                         <br />
-                        <input type="submit" value="Subescreve Já!" class="btn btn-large" />
+                        <input type="submit" value="Subescreve Já!" class="btn btn-large" /> -->
                     </form>
                 </div>
             </div>
@@ -189,8 +209,8 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2016 Start Bootstrap. All Rights Reserved.</p>
-            <ul class="list-inline">
+            <p>&copy; 2017 Consultoria de Impacte Ambiental em Saúde (CIAS). All Rights Reserved.</p>
+            <!--<ul class="list-inline">
                 <li>
                     <a href="#">Privacy</a>
                 </li>
@@ -200,7 +220,7 @@
                 <li>
                     <a href="#">FAQ</a>
                 </li>
-            </ul>
+            </ul> -->
         </div>
     </footer>
 
